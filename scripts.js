@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	btn.onclick = changeBackground;
 
 	function changeBackground() {
-		var element = document.getElementById("myDIV");
-    	element.classList.toggle("mystyle");
+		let element = document.getElementById("myDIV");
+    		element.classList.toggle("mystyle");
  	}
 
 });
